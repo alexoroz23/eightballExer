@@ -1,17 +1,13 @@
-import React from 'react';
-import EightBall from './EightBall';
+import React from "react";
+import "./App.css";
+import EightBall from "./EightBall";
 
-const answers = [
-  { msg: 'It is certain.', color: 'green' },
-  // ... (add the rest of the answers)
-];
-
-const App = () => {
+function App() {
   return (
-    <div className="app">
-      <EightBall answers={answers} />
+    <div className="App">
+      <EightBall />
     </div>
   );
-};
+}
 
 export default App;
